@@ -42,6 +42,11 @@ export const constantRoutes = [
     ]
   },
   {
+    path: '/knowledgeBase',
+    component: () => import('@/views/knowledgeBase'),
+    hidden: true
+  },
+  {
     path: '/login',
     component: () => import('@/views/login'),
     hidden: true

@@ -23,3 +23,11 @@ npm run build:stage
 # 构建生产环境
 npm run build:prod
 ```
+
+## 简化使用
+
+main.js 注释掉自定义组件
+
+## 白名单设置
+
+去除路由设置 增加白名单 新增 knowledgeBase 空白页面和 api
